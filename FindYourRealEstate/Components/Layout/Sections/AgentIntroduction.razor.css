@@ -1,0 +1,80 @@
+﻿.main-container {
+    width: 100%;
+    height: 90vh;
+    background-color: #dbdad6; /* Background color for extra space */
+    overflow: hidden;
+    align-items: center; /* Vertically centers items in the container */
+    justify-content: center; /* Space between image and right content */
+    display: flex;
+}
+
+.image-container {
+    min-width: 50vh; /* Set the visible width of the cropped area */
+    min-height: 50vh; /* Set the visible width of the cropped area */
+    width: 50vh; /* Set the visible width of the cropped area */
+    height: 50vh; /* Set the visible width of the cropped area */
+    overflow: hidden; /* Hide anything outside these dimensions */
+    position: relative;
+    margin-left: 30vh;
+}
+
+.cropped-image {
+    position: relative;
+    height: 100%;
+    width: auto;
+    top: -10%; /* Adjust top position to align the desired portion */
+    left: -6%; /* Adjust left position to align the desired portion */
+}
+
+.right-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 50%; /* Adjust as needed */
+    margin-left: 10vh;
+}
+
+.text-above-button h2 {
+    font-size: 3.5rem;
+    font-family: 'Sorts Mill Gaudy', serif;
+    font-weight: lighter;
+    margin: 0 0 10px 0; /* Adds some space below the text */
+    color: #767676;
+    width: 60vh;
+}
+
+.button-container {
+    align-self: flex-start;
+    margin-top: 6vh;
+    width: 100%;
+    height: 7vh;
+    color: white; /* Text color, make sure it contrasts the background */
+    z-index: 1; /* Ensure the text appears above the background */
+}
+
+    .button-container button {
+        width: 30vh;
+        height: 100%; /* Button height is now 100% of the container height */
+        color: #767676;
+        background-color: transparent;
+        border: 3.5px solid #767676;
+        border-radius: 1px;
+        cursor: pointer;
+        transition: color 0.3s, border-color 0.3s;
+        text-align: center; /* Ensure text is centered horizontally */
+        display: flex; /* Enable flexbox on the button */
+        justify-content: center; /* Center text horizontally inside the button */
+        align-items: center; /* Center text vertically inside the button */
+    }
+
+    .button-container h3 {
+        font-weight: bolder;
+        font-size: 1rem;
+        letter-spacing: 0.2rem;
+        margin: 0;
+    }
+
+    .button-container button:hover {
+        color: #555;
+        border-color: #555;
+    }

@@ -1,0 +1,25 @@
+﻿.centered-content {
+    position: absolute; /* Position the text over the background */
+    top: 50%; /* Vertically center it */
+    left: 50%; /* Horizontally center it */
+    transform: translate(-50%, -50%); /* Adjust for exact centering */
+    text-align: center; /* Center the text */
+}
+
+.vertical-centered-content {
+    top: 50%; /* Vertically center it */
+    transform: translate(-50%, -50%); /* Adjust for exact centering */
+    text-align: center; /* Center the text */
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    justify-content: space-evenly; /* Distribute items evenly */
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly; /* Distribute items evenly */
+}
