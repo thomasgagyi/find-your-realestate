@@ -1,0 +1,96 @@
+﻿.main-container {
+    width: 100vw;
+    height: 70vh;
+    margin: 10vh;
+    background-color: #fffffd; /* Background color for extra space */
+    overflow: hidden;
+    justify-content: center; /* Space between image and right content */
+    display: flex;
+}
+
+.left-content {
+    min-width: 60vh;
+    width: 60vh; /* Set the visible width of the cropped area */
+    height: 100%; /* Set the visible width of the cropped area */
+    overflow: hidden; /* Hide anything outside these dimensions */
+    position: relative;
+    display: block;
+    overflow: hidden; /* Hide anything outside these dimensions */
+}
+    .left-content .image-align {
+        position: relative;
+        object-fit: cover; /* Ensures the image scales proportionally */
+        top: -10%; /* Adjust top position to align the desired portion */
+        left: -6%; /* Adjust left position to align the desired portion */
+    }
+
+.right-content {
+    min-width: 70vh;
+    width: 70vh; /* Set the visible width of the cropped area */
+    height: 100%; /* Set the visible height of the cropped area */
+    overflow: hidden; /* Hide anything outside these dimensions */
+    position: relative;
+    display: flex; /* Use flexbox for centering */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    padding-left: 15vh;
+}
+    .right-content img {
+        object-fit: cover; /* Ensures the image scales proportionally */
+        position: relative;
+        height: 90%;
+    }
+
+.text-container {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    justify-content: center; /* Distribute items evenly */
+}
+    .text-container h1 {
+        font-size: 3.5rem;
+        font-family: 'Sorts Mill Gaudy', serif;
+        font-weight: lighter;
+        color: #767676;
+        width: 60vh;
+    }
+    .text-container h3 {
+        font-size: 1.8rem;
+        font-family: 'Sorts Mill Gaudy', serif;
+        font-weight: lighter;
+        color: #767676;
+    }
+    .text-container h6 {
+        font-size: 1rem;
+        font-weight: normal;
+        color: #525050;
+    }
+
+.row-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start; /* Distribute items evenly */
+    margin-top: 3.5vh;
+    margin-bottom: 1.9vh;
+}
+    .row-content h4 {
+        font-size: 1rem;
+        font-weight: bold;
+        color: #767676;
+    }
+
+.row-element {
+    position: relative;
+    height: 2vh;
+    width: 12vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start; /* Distribute items evenly */
+    margin-right: 5vh;
+}
+    .row-element img {
+        height: 2vh;
+        width: auto;
+        margin-right: 1vh;
+    }
+    .row-element h4 {
+    }

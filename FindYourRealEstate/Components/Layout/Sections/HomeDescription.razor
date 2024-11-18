@@ -1,5 +1,27 @@
-﻿<h3>MainScrollPathLayout</h3>
-
-@code {
-
-}
+﻿<div class="main-container">
+    <div class="left-content">
+        <img class="image-align" src="@Details.HomeImageUrl"/>
+        <div class="text-container">
+            <h1>@Details.HomeName</h1>
+            <h3>@Details.HomeStatus</h3>
+            <div class="row-content">
+                <div class="row-element">
+                    <img src="@Details.BedsIconUrl"/>
+                    <h4>@Details.NumBeds Beds</h4>
+                </div>
+                <div class="row-element">
+                    <img src="@Details.BathsIconUrl"/>
+                    <h4>@Details.NumBaths Baths</h4>
+                </div>
+                <div class="row-element">
+                    <img src="@Details.CarsIconUrl"/>
+                    <h4>@Details.NumCars Cars</h4>
+                </div>
+            </div>
+            <h6>@Details.Additional</h6>
+        </div>
+    </div>
+    <div class="right-content">
+        <img src="@Details.HomeLayoutImageUrl"/>
+    </div>
+</div>

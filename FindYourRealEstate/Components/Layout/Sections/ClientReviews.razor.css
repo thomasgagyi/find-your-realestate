@@ -1,0 +1,58 @@
+﻿.main-container {
+    width: 100vw;
+    height: 80vh;
+    background-color: #dfdcd1; /* Background color for extra space */
+    overflow: hidden;
+    justify-content: space-evenly; /* Center all children vertically */
+    align-items: center; /* Center all children horizontally */
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+    .main-container h1 {
+        font-size: 3.5rem;
+        font-family: 'Sorts Mill Gaudy', serif;
+        font-weight: lighter;
+        color: #767676;
+        margin: 0; /* Remove default margin for better centering */
+        width: 60vh;
+        
+    }
+
+.middle-content {
+    position: relative;
+    height: 60%;
+    width: 138vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly; /* Distribute items evenly */
+    align-items: center; /* Center items vertically in .middle-content */
+}
+.middle-content-element {
+    padding: 5vh;
+    width: 40vh;
+    height: 100%;
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    justify-content: space-between; /* Distribute items evenly */
+    border: solid;
+    border-color: #525050;
+    border-width: 0.1rem;
+}
+    .middle-content-element h6 {
+        font-size: 1.2rem;
+        font-weight: normal;
+        color: #525050;
+        text-align: left;
+    }
+
+    .middle-content-element h3 {
+        font-size: 1.8rem;
+        font-family: 'Sorts Mill Gaudy', serif;
+        font-weight: lighter;
+        color: #767676;
+        text-align: left;
+    }
+
+    

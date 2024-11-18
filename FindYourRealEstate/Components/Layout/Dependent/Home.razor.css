@@ -1,0 +1,90 @@
+﻿.main-container {
+    width: 40vh;
+    height: 45vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.top-content {
+    width: 100%; /* Set the visible width of the cropped area */
+    height: 60%; /* Set the visible width of the cropped area */
+    overflow: hidden; /* Hide anything outside these dimensions */
+    position: relative;
+}
+    .top-content img {
+        position: relative;
+        height: 100%;
+        width: auto; /* Adjust left position to align the desired portion */
+    }
+
+.bottom-content {
+    display: flex;
+    height: 38%;
+    flex-direction: column; /* Stack items vertically */
+    justify-content: space-between; /* Distribute items evenly */
+    border: solid;
+    border-width: 0.1rem;
+    border-color: #bfbbb4;
+    padding-top: 2vh;
+    padding-left: 2vh;
+    padding-bottom: 1.8vh;
+}
+
+    .bottom-content h3 {
+        font-size: 1rem;
+        font-weight: normal;
+        color: #525050;
+        text-align: left;
+        text-transform: uppercase;
+    }
+
+    .bottom-content h1 {
+        font-size: 1.8rem;
+        font-family: 'Sorts Mill Gaudy', serif;
+        font-weight: lighter;
+        color: #525050;
+        text-align: left;
+        margin-bottom: 0;
+    }
+
+    .bottom-content h6 {
+        font-size: 0.9rem;
+        font-weight: normal;
+        color: #525050;
+        text-align: left;
+    }
+
+.row-content {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start; /* Distribute items evenly */
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    align-self: center;
+}
+
+    .row-content h4 {
+        font-size: 0.9rem;
+        font-weight: bold;
+        color: #767676;
+    }
+
+.row-element {
+    position: relative;
+    height: 2vh;
+    width: 12vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start; /* Distribute items evenly */
+    margin-right: 1vh;
+}
+
+    .row-element img {
+        height: 1.9vh;
+        width: auto;
+        margin-right: 0.8vh;
+    }

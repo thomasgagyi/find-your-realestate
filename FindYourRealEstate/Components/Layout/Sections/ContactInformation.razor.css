@@ -1,0 +1,68 @@
+﻿.main-container {
+    width: 100vw;
+    height: 80vh;
+    background-color: #525050;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.content-container {
+    width: 120vh;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.left-content {
+    width: 60vh;
+    min-width: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-bottom: 5vh;
+    padding-right: 2vh;
+}
+    .left-content h3 {
+        color: #f1efe9;
+        font-weight: bold;
+        font-size: 1.2rem;
+    }
+
+.middle-row-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.bottom-row-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+    .bottom-row-content img {
+        height: 5vh;
+        width: auto;
+        margin-right: 1vh;
+    }
+
+.column-element h2 {
+    color: #f1efe9;
+    font-weight: lighter;
+    font-size: 2.5rem;
+}
+
+.column-element h6 {
+    color: #c8c2b3;
+    font-weight: lighter;
+}
+
+.right-content-image {
+    position: relative;
+    height: 130%;
+    width: auto;
+    top: -30%; /* Adjust top position to align the desired portion */
+    left: 10%; /* Adjust left position to align the desired portion */
+}

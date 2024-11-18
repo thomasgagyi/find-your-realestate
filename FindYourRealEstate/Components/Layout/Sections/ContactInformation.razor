@@ -1,5 +1,39 @@
-﻿<h3>MainScrollPathLayout</h3>
+﻿<div class="main-container">
+    <div class="content-container">
+        <div class="left-content">
+            <h3>HOMAS LARSON GROUP</h3>
+            <div class="middle-row-content">
+                <div class="column-element">
+                    <h2>Contact Us</h2>
 
-@code {
+                    <h6>@ContactInfo.Address</h6>
+                    <h6>@ContactInfo.City</h6>
+                    <h6 style="margin-top: 3vh">@ContactInfo.PhoneNumber</h6>
 
-}
+                    <h6 style="margin-top: 3vh">@ContactInfo.Email</h6>
+                </div>
+                <div class="column-element">
+                    <h2>Office Hours</h2>
+
+                    <h6>Monday to Friday</h6>
+                    <h6>@ContactInfo.MondayToFriday</h6>
+                    <h6>Saturday</h6>
+                    <h6>@ContactInfo.Saturday</h6>
+
+                    <h6 style="margin-top: 2.3vh">@ContactInfo.AddittionalInfo</h6>
+                </div>
+            </div>
+            <div class="bottom-row-content">
+                <div class="column-element">
+                    <h2>Get Social</h2>
+                </div>
+                <div style="margin-right: 3vh" class="column-element">
+                    <img src="@ContactInfo.FacebookIconUrl"/>
+                    <img src="@ContactInfo.InstagramIconUrl"/>
+                    <img src="@ContactInfo.TwitterIconUrl"/>
+                </div>
+            </div>
+        </div>
+        <img class="right-content-image" src="@RightContentImageUrl"/>
+    </div>
+</div>
