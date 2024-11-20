@@ -5,21 +5,6 @@ namespace FindYourRealEstate.Components.Layout
 {
     public partial class MainPage
     {
-        public HomeDetails homeDetails = new HomeDetails
-        {
-            HomeImageUrl = "https://raw.githubusercontent.com/thomasgagyi/find-your-realestate/refs/heads/master/FindYourRealEstate/Resources/Images/HomeExample.jpg",
-            HomeLayoutImageUrl = "https://raw.githubusercontent.com/thomasgagyi/find-your-realestate/refs/heads/master/FindYourRealEstate/Resources/Images/floor_plan.png",
-            HomeName = "14 Milena Grove",
-            HomeStatus = "House for sale",
-            NumBeds = 4,
-            NumBaths = 3,
-            NumCars = 2,
-            Additional = "This property is wheelchair accessible",
-            BedsIconUrl = "https://raw.githubusercontent.com/thomasgagyi/find-your-realestate/refs/heads/master/FindYourRealEstate/Resources/Images/tl.png",
-            BathsIconUrl = "https://raw.githubusercontent.com/thomasgagyi/find-your-realestate/refs/heads/master/FindYourRealEstate/Resources/Images/ba.png",
-            CarsIconUrl = "https://raw.githubusercontent.com/thomasgagyi/find-your-realestate/refs/heads/master/FindYourRealEstate/Resources/Images/ca.png"
-        };
-
         public Review reviewLeft = new Review
         {
             ReviewBody = "Boost your product and service's credibility by adding testimonials from your clients. People love recommendations so feedback from others who've tried it is invaluable.",
@@ -39,35 +24,6 @@ namespace FindYourRealEstate.Components.Layout
         };
 
         #region Featured_Listings
-        public HomeDetails homeDetailsLeft = new HomeDetails
-        {
-            HomeImageUrl = "https://raw.githubusercontent.com/thomasgagyi/find-your-realestate/refs/heads/master/FindYourRealEstate/Resources/Images/leH.jpg",
-            HomeLayoutImageUrl = "missing",
-            HomeName = "234 Talensville Lane",
-            HomeStatus = "House for rent",
-            NumBeds = 4,
-            NumBaths = 3,
-            NumCars = 2,
-            Additional = "This property is wheelchair accessible",
-            BedsIconUrl = "https://raw.githubusercontent.com/thomasgagyi/find-your-realestate/refs/heads/master/FindYourRealEstate/Resources/Images/tl.png",
-            BathsIconUrl = "https://raw.githubusercontent.com/thomasgagyi/find-your-realestate/refs/heads/master/FindYourRealEstate/Resources/Images/ba.png",
-            CarsIconUrl = "https://raw.githubusercontent.com/thomasgagyi/find-your-realestate/refs/heads/master/FindYourRealEstate/Resources/Images/ca.png"
-        };
-
-        public HomeDetails homeDetailsMiddle = new HomeDetails
-        {
-            HomeImageUrl = "https://raw.githubusercontent.com/thomasgagyi/find-your-realestate/refs/heads/master/FindYourRealEstate/Resources/Images/midH.jpg",
-            HomeLayoutImageUrl = "missing",
-            HomeName = "56 Goulcrest Drive",
-            HomeStatus = "House for sale",
-            NumBeds = 3,
-            NumBaths = 2,
-            NumCars = 1,
-            Additional = "",
-            BedsIconUrl = "https://raw.githubusercontent.com/thomasgagyi/find-your-realestate/refs/heads/master/FindYourRealEstate/Resources/Images/tl.png",
-            BathsIconUrl = "https://raw.githubusercontent.com/thomasgagyi/find-your-realestate/refs/heads/master/FindYourRealEstate/Resources/Images/ba.png",
-            CarsIconUrl = "https://raw.githubusercontent.com/thomasgagyi/find-your-realestate/refs/heads/master/FindYourRealEstate/Resources/Images/ca.png"
-        };
 
         public HomeDetails homeDetailsRight = new HomeDetails
         {
@@ -131,7 +87,6 @@ namespace FindYourRealEstate.Components.Layout
             CarsIconUrl = "https://raw.githubusercontent.com/thomasgagyi/find-your-realestate/refs/heads/master/FindYourRealEstate/Resources/Images/ca.png"
         };
         #endregion Open_Houses
-
 
         public ContactInfo contactInfo = new ContactInfo
         {

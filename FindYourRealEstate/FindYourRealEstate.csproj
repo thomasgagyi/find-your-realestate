@@ -11,6 +11,8 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Remove="Components\Layout\PageLayouts\Hero.razor.css" />
+    <None Remove="Components\Layout\Sections\Hero - Copy.razor.css" />
     <None Remove="Components\Layout\Sections\Hero.razor.css" />
   </ItemGroup>
 

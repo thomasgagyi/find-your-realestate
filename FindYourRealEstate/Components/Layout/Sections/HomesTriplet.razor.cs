@@ -1,6 +1,5 @@
 using Microsoft.AspNetCore.Components;
 using FindYourRealEstate.Models;
-using System.Drawing;
 
 namespace FindYourRealEstate.Components.Layout.Sections
 {
@@ -16,5 +15,12 @@ namespace FindYourRealEstate.Components.Layout.Sections
         public required HomeDetails HomeDetailsRight { get; set; }
         [Parameter]
         public required string BackgroundColor { get; set; }
+
+        [Parameter]
+        public required string HomeDetailsPageLeft { get; set; }
+        [Parameter]
+        public required string HomeDetailsPageMiddle { get; set; }
+        [Parameter]
+        public required string HomeDetailsPageRight { get; set; }
     }
 }

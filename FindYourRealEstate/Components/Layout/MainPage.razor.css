@@ -1,9 +1,6 @@
 ﻿.main-container {
-    min-height: 100vh; /* Ensures it's at least 100% of the viewport height */
-    display: flex;
-    flex-direction: column; /* Align children in a column */
-    justify-content: flex-start; /* Align content at the top */
-    align-items: center; /* Center the content horizontally */
-    overflow-y: auto; /* Allows vertical scrolling */
-    overflow-x: hidden; /* Prevents horizontal scrolling */
+    min-height: 100vh;
+    align-items: center;
+    overflow-y: auto;
+    overflow-x: hidden;
 }

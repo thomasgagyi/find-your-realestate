@@ -1,29 +1,15 @@
 ﻿.main-container {
     width: 100vw;
     height: 80vh;
-    background-color: #dfdcd1; /* Background color for extra space */
+    background-color: var(--secondary-background-color);
     overflow: hidden;
-    justify-content: space-evenly; /* Center all children vertically */
-    align-items: center; /* Center all children horizontally */
-    display: flex;
-    flex-direction: column;
+    align-items: center;
     text-align: center;
 }
-    .main-container h1 {
-        font-size: 3.5rem;
-        font-family: 'Sorts Mill Gaudy', serif;
-        font-weight: lighter;
-        color: #525050;
-        margin: 0; /* Remove default margin for better centering */
-        width: 60vh;
-    }
 
 .content-container {
     width: 140vh;
     min-width: 140vh;
     height: auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
     margin-bottom: 7vh;
 }

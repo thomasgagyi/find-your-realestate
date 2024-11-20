@@ -7,5 +7,7 @@ namespace FindYourRealEstate.Components.Layout.Dependent
     {
         [Parameter]
         public required HomeDetails Details { get; set; }
+        [Parameter]
+        public required string HomeDetailsPage { get; set; }
     }
 }

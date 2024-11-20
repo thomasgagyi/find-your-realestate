@@ -2,29 +2,28 @@
     width: 40vh;
     height: 45vh;
     overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    transition: filter 1s ease-in-out;
 }
 
+    .main-container:hover {
+        border-color: var(--secondary-font-color);
+        cursor: pointer;
+    }
 
 .top-content {
-    width: 100%; /* Set the visible width of the cropped area */
-    height: 60%; /* Set the visible width of the cropped area */
-    overflow: hidden; /* Hide anything outside these dimensions */
+    width: 100%;
+    height: 60%;
+    overflow: hidden;
     position: relative;
 }
     .top-content img {
         position: relative;
         height: 100%;
-        width: auto; /* Adjust left position to align the desired portion */
+        width: auto;
     }
 
 .bottom-content {
-    display: flex;
     height: 38%;
-    flex-direction: column; /* Stack items vertically */
-    justify-content: space-between; /* Distribute items evenly */
     border: solid;
     border-width: 0.1rem;
     border-color: #bfbbb4;
@@ -34,52 +33,49 @@
 }
 
     .bottom-content h3 {
+        font-family: "Sorts Mill Goudy", serif;
         font-size: 1rem;
         font-weight: normal;
-        color: #525050;
+        color: var(--secondary-font-color);
         text-align: left;
         text-transform: uppercase;
     }
 
     .bottom-content h1 {
+        color: var(--secondary-font-color);
         font-size: 1.8rem;
-        font-family: 'Sorts Mill Gaudy', serif;
+        font-family: "Sorts Mill Goudy", serif;
         font-weight: lighter;
-        color: #525050;
         text-align: left;
         margin-bottom: 0;
     }
 
     .bottom-content h6 {
+        color: var(--secondary-font-color);
+        font-family: "Teachers", sans-serif;
         font-size: 0.9rem;
         font-weight: normal;
-        color: #525050;
         text-align: left;
     }
 
 .row-content {
     width: 90%;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start; /* Distribute items evenly */
     margin-top: 1vh;
     margin-bottom: 1vh;
     align-self: center;
 }
 
     .row-content h4 {
+        font-family: "Teachers", sans-serif;
+        font-weight: normal;
         font-size: 0.9rem;
-        font-weight: bold;
-        color: #767676;
+        color: var(--secondary-font-color);
     }
 
 .row-element {
     position: relative;
     height: 2vh;
     width: 12vh;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start; /* Distribute items evenly */
     margin-right: 1vh;
 }
 

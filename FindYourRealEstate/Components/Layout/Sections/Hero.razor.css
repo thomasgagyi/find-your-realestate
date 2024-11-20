@@ -1,87 +1,67 @@
-﻿/* Main container */
-.main-container {
+﻿.main-container {
     width: 100vw;
     height: 100vh;
-    background-color: #f0f0f0; /* Background color for extra space */
+    background-color: #f0f0f0;
     overflow: hidden;
 }
 
-    /* Background with grayscale and blur effect */
     .main-container .background {
         width: 100%;
         height: 100%;
-        filter: grayscale(10%) blur(3px) brightness(80%) contrast(80%); /* Apply grayscale and blur */
-        transition: filter 0.3s ease-in-out; /* Smooth transition for hover effect */
+        filter: grayscale(10%) blur(3px) brightness(80%) contrast(80%);
+        transition: filter 0.3s ease-in-out;
     }
-        /* On hover, reduce the grayscale and blur effect */
+
         .main-container .background:hover {
             filter: grayscale(10%) blur(1px) brightness(80%) contrast(80%);
         }
+
         .main-container .background img {
             width: 100%;
             height: 100%;
             object-fit: cover;
         }
         
-
 .secondary-container {
     width: 800px;
     height: 500px;
 }
-/* Style for the text container */
+
 .text-container {
-    color: white; /* Text color, make sure it contrasts the background */
-    z-index: 1; /* Ensure the text appears above the background */
-
+    z-index: 1;
 }
-
-    /* Style for the text inside the container */
     .text-container h2 {
+        color: var(--primary-hero-contact-font-color);
         font-size: 7rem;
         margin: 0;
-        font-family: 'Sorts Mill Gaudy', serif;
-
+        font-family: "Sorts Mill Goudy", serif;
         width: 100%;
         height: 100%;
-    }
-
-    .text-container p {
-        font-size: 1.25rem;
-        margin-top: 10px;
     }
 
 .button-container {
     align-self: center;
     width: 80%;
     height: 12%;
-    color: white; /* Text color, make sure it contrasts the background */
-    z-index: 1; /* Ensure the text appears above the background */
+    color: white;
+    z-index: 1;
     align-content: center;
 }
 
     .button-container button {
         width: 45%;
-        height: 100%; /* Button height is now 100% of the container height */
-        color: #f1efe9;
+        height: 100%;
+        color: var(--primary-hero-contact-font-color);
         background-color: transparent;
-        border: 3.5px solid #f1efe9;
+        border: 3.5px solid var(--primary-hero-contact-font-color);
         border-radius: 1px;
         cursor: pointer;
-        transition: color 0.3s, border-color 0.3s;
-        text-align: center; /* Ensure text is centered horizontally */
-        display: flex; /* Enable flexbox on the button */
-        justify-content: center; /* Center text horizontally inside the button */
-        align-items: center; /* Center text vertically inside the button */
-    }
-
-    .button-container h3 {
-        font-weight: bolder;
-        font-size: 1.2rem;
-        letter-spacing: 0.2rem;
-        margin: 0;
+        transition: color 0.1s, border-color 0.1s;
+        text-align: center;
+        align-items: center;
     }
 
     .button-container button:hover {
-        color: #555;
-        border-color: #555;
+        color: var(--primary-hero-contact-font-hover-color);
+        border-color: var(--primary-hero-contact-font-hover-color);
     }

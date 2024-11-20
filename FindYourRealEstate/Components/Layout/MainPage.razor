@@ -2,14 +2,41 @@
 @using FindYourRealEstate.Models
 @rendermode InteractiveServer
 
-<div class="main-container flex-column">
-    <Hero BackgroundImageUrl="https://raw.githubusercontent.com/thomasgagyi/find-your-realestate/refs/heads/master/FindYourRealEstate/Resources/Images/HeroBackground.png"
-          HeroWelcomeText="Let us help you make the move."/>
-    <AgentIntroduction AgentImageUrl="https://raw.githubusercontent.com/thomasgagyi/find-your-realestate/refs/heads/master/FindYourRealEstate/Resources/Images/agent.jpg"
-                       AgentIntroText="We have what it takes to get you the best deal for your ideal home."/>
-    <HomeDescription Details="homeDetails" />
-    <HomesTriplet HomeDetailsLeft="homeDetailsLeft" HomeDetailsMiddle="homeDetailsMiddle" HomeDetailsRight="homeDetailsRight" BackgroundColor="#dfdcd1" HomesTripletType="Featured Listings"/>
-    <HomesTriplet HomeDetailsLeft="homeDetailsLeftOH" HomeDetailsMiddle="homeDetailsMiddleOH" HomeDetailsRight="homeDetailsRightOH" BackgroundColor="#f1efe9" HomesTripletType="Open Houses"/>
-    <ClientReviews ReviewLeft="reviewLeft" ReviewMiddle="reviewMiddle" ReviewRight="reviewRight"/>
-    <ContactInformation ContactInfo="contactInfo" RightContentImageUrl="https://raw.githubusercontent.com/thomasgagyi/find-your-realestate/refs/heads/master/FindYourRealEstate/Resources/Images/s2.jpg" />
+<div class="main-container flex-column justify-flex-start">
+    <Hero 
+        BackgroundImageUrl="https://raw.githubusercontent.com/thomasgagyi/find-your-realestate/refs/heads/master/FindYourRealEstate/Resources/Images/HeroBackground.png"
+        HeroWelcomeText="Let us help you make the move."/>
+
+    <AgentIntroduction 
+        AgentImageUrl="https://raw.githubusercontent.com/thomasgagyi/find-your-realestate/refs/heads/master/FindYourRealEstate/Resources/Images/agent.jpg"
+        AgentIntroText="We have what it takes to get you the best deal for your ideal home."/>
+
+    <HomeDescription 
+        Details="HomeDetailsData._14MilenaGroveDetails"/>
+
+    <HomesTriplet 
+        HomeDetailsLeft="HomeDetailsData._234TalensvilleLane"
+        HomeDetailsMiddle="HomeDetailsData._56GoulcrestDrive" 
+        HomeDetailsRight="HomeDetailsData._7WalderlaneHill" 
+        BackgroundColor="#dfdcd1"
+        HomesTripletType="Featured Listings"
+        HomeDetailsPageLeft="/234TalensvilleLane"
+        HomeDetailsPageMiddle="/56GoulcrestDrive"
+        HomeDetailsPageRight="/7WalderlaneHill"/>
+
+    <HomesTriplet 
+        HomeDetailsLeft="homeDetailsLeftOH"
+        HomeDetailsMiddle="homeDetailsMiddleOH" 
+        HomeDetailsRight="homeDetailsRightOH"
+        BackgroundColor="#f1efe9" 
+        HomesTripletType="Open Houses"/>
+
+    <ClientReviews 
+        ReviewLeft="reviewLeft"
+        ReviewMiddle="reviewMiddle" 
+        ReviewRight="reviewRight"/>
+
+    <ContactInformation 
+        ContactInfo="contactInfo"
+        RightContentImageUrl="https://raw.githubusercontent.com/thomasgagyi/find-your-realestate/refs/heads/master/FindYourRealEstate/Resources/Images/s2.jpg" />
 </div>

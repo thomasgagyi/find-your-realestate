@@ -1,8 +1,8 @@
-﻿<div style="background-color: @BackgroundColor" class="main-container">
-    <h1>@HomesTripletType</h1>
-    <div class="content-container">
-        <Home Details="HomeDetailsLeft"/>
-        <Home Details="HomeDetailsMiddle"/>
-        <Home Details="HomeDetailsRight"/>
+﻿<div style="background-color: @BackgroundColor" class="main-container flex-column justify-even">
+    <h1 class="title-text">@HomesTripletType</h1>
+    <div class="content-container flex-row justify-even">
+        <Home Details="HomeDetailsLeft" HomeDetailsPage="@HomeDetailsPageLeft" />
+        <Home Details="HomeDetailsMiddle" HomeDetailsPage="@HomeDetailsPageMiddle" />
+        <Home Details="HomeDetailsRight" HomeDetailsPage="@HomeDetailsPageRight" />
     </div>
 </div>
