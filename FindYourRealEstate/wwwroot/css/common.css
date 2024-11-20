@@ -1,25 +1,84 @@
 ﻿.centered-content {
-    position: absolute; /* Position the text over the background */
-    top: 50%; /* Vertically center it */
-    left: 50%; /* Horizontally center it */
-    transform: translate(-50%, -50%); /* Adjust for exact centering */
-    text-align: center; /* Center the text */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
 }
 
 .vertical-centered-content {
-    top: 50%; /* Vertically center it */
-    transform: translate(-50%, -50%); /* Adjust for exact centering */
-    text-align: center; /* Center the text */
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
 }
 
 .flex-column {
     display: flex;
-    flex-direction: column; /* Stack items vertically */
-    justify-content: space-evenly; /* Distribute items evenly */
+    flex-direction: column;
 }
 
 .flex-row {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly; /* Distribute items evenly */
+}
+
+.justify-even {
+    justify-content: space-evenly
+}
+
+.justify-between {
+    justify-content: space-between
+}
+
+.justify-center {
+    justify-content: center
+}
+
+.justify-flex-start {
+    justify-content: flex-start;
+}
+
+.flex {
+    display: flex;
+}
+
+.page-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+:root {
+    /* Foreground */
+    --primary-hero-contact-font-color: #f1efe9;
+    --primary-hero-contact-font-hover-color: #b4b1aa;
+    --secondary-font-color: #525050;
+    --agent-font-color: #767676;
+    --agent-font-hover-color: #666363;
+    --leastused-text-font-color: #c8c2b3;
+    /* Background */
+    --agent-background-color: #dbdad6;
+    --primary-background-color: #fffffd;
+    --secondary-background-color: #dfdcd1;
+}
+
+.title-text {
+    font-size: 3.5rem;
+    font-family: "Sorts Mill Goudy", serif;
+    font-weight: lighter;
+    color: var(--secondary-font-color);
+    margin: 0;
+    width: 60vh;
+}
+
+.button-text {
+    font-family: "Teachers", sans-serif;
+    font-weight: bolder;
+    font-size: 1.2rem;
+    letter-spacing: 0.2rem;
+    margin: 0;
 }
