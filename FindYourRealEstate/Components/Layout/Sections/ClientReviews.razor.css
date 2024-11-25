@@ -1,31 +1,23 @@
 ﻿.main-container {
     width: 100vw;
-    height: 80vh;
+    height: 800px;
     background-color: var(--secondary-background-color);
     overflow: hidden;
-    justify-content: space-evenly;
     align-items: center;
-    display: flex;
-    flex-direction: column;
     text-align: center;
+    padding-bottom: 5vh;
 }
 
 .middle-content {
     position: relative;
     height: 60%;
     width: 138vh;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
     align-items: center;
 }
 .middle-content-element {
     padding: 5vh;
     width: 40vh;
     height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
     border: solid;
     border-color: var(--secondary-font-color);
     border-width: 0.1rem;
@@ -45,5 +37,3 @@
         color: var(--secondary-font-color);
         text-align: left;
     }
-
-    
