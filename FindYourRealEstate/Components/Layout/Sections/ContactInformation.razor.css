@@ -1,6 +1,6 @@
 ﻿.main-container {
     width: 100vw;
-    height: 80vh;
+    height: 750px;
     background-color: var(--secondary-font-color);
     overflow: hidden;
 }
@@ -11,8 +11,8 @@
 }
 
 .left-content {
-    width: 60vh;
-    min-width: 60vh;
+    width: 550px;
+    min-width: 550px;
     padding-bottom: 5vh;
     padding-right: 2vh;
 }
