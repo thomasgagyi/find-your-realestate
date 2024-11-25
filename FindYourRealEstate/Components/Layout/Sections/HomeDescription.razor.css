@@ -1,6 +1,6 @@
 ﻿.main-container {
     width: 100vw;
-    height: 70vh;
+    height: 700px;
     margin: 10vh;
     background-color: var(--primary-background-color);
     overflow: hidden;
