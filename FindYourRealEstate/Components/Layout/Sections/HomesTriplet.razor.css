@@ -1,6 +1,6 @@
 ﻿.main-container {
     width: 100vw;
-    height: 80vh;
+    height: 800px;
     background-color: var(--secondary-background-color);
     overflow: hidden;
     align-items: center;
